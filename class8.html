@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Advanced - Class 8</title>
+</head>
+
+<body>
+
+    <!-- Advanced Form with HTML5 Inputs -->
+    <h2>Profile Form</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" placeholder="Enter password" required>
+        <br><br>
+
+        <label>Birthday:</label>
+        <input type="date" required>
+        <!-- New HTML5 input -->
+        <br><br>
+
+        <label>Favorite Color:</label>
+        <input type="color">
+        <!-- Color picker -->
+        <br><br>
+
+        <label>Rate yourself:</label>
+        <input type="range" min="1" max="10">
+        <!-- Slider input -->
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+
+    <!-- Audio with additional attributes -->
+    <h2>Listen Music</h2>
+    <audio controls autoplay loop>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        Your browser does not support audio element.
+    </audio>
+
+    <br><br>
+
+    <!-- Video with additional attributes -->
+    <h2>Watch Video</h2>
+    <video width="320" height="240" controls autoplay muted loop>
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support video tag.
+    </video>
+
+    <hr>
+
+    <!-- iFrame with additional attributes -->
+    <h2>Embedded Page</h2>
+    <iframe src="https://www.google.com" width="600" height="400" title="Google" allowfullscreen></iframe>
+
+    <!--
+    input type=date = calendar picker
+    input type=color = color picker
+    input type=range = slider
+    audio/video = can use autoplay, loop, muted
+    iframe = can use width, height, title, allowfullscreen
+    -->
+
+</body>
+
+</html>
